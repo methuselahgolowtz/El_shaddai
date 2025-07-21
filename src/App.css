@@ -1,0 +1,35 @@
+.image{
+background: url(./assets/images/elshaddai-logo.png);
+width: 50px;
+border-radius: 50%;
+height: 50px;
+background-position: center;
+box-shadow: 1px 2px 4px black;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.map{
+    background-image: url(./assets/images/map.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(./assets/images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.picha{
+    border-radius: 5%;
+    
+}
+.batan{
+    border-radius: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: linear-gradient(rgba(#440,#004,#ff0,0.4),rgba(0,0,0,0.4),rgba(#440,4,5,0.5));
+}

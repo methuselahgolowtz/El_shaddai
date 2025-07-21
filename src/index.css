@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root{
+  --colorBack: #800000;
+  --backgroundColor: #FFCA28;
+  --boxShadow: #A52A2A;
+  --primarycolor: #FFC107;
+  --secondarycolor: #388E3C;
+  --defaultColor: #000000;
+  --textcolor: #ffff;
+}
+
+@theme{
+  --font-quinger: quinger, "san-serif";
+  --font-galeion: gelion, 'san-serif';
+  --font-cabinet: cabinet, 'san-serif';
+}
+
+@font-face {
+  font-family: 'quinger';
+  font-style: normal;
+  font-weight: 700 900; 
+  font-display: swap;
+  src: url('./fonts/quinger/Quinger-MVy5w.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gelion';
+  src: url(./fonts/gelion/Gelion\ Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cabinet';
+  font-style: normal;
+  font-weight: 700 900; 
+  font-display: swap;
+  src: url('./fonts/cabinet-grotesk-webfont/CabinetGrotesk-Regular.woff') format('truetype');
+}
+
+body{
+  /* background-color: var(--backgroundColor); */
+}
+.navigation{
+    background-color: var(--colorBack);
+    left: 0;
+    scroll-behavior: smooth;
+    overlay: none;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    color: var(--textcolor);
+    box-shadow: 1px 2px 4px black;
+}
+.unordedlist li{
+  background-color: var(--boxShadow);
+  padding: 10px;
+  box-shadow: 1px 2px 1px whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.about{
+  box-shadow: 1px 2px 1px #ddad1f;
+  /* background: var(--backgroundColor); */
+  color: var(--defaultColor);
+  border-radius: 2px;
+}
+.abt{
+ margin-top: 170px;
+}
